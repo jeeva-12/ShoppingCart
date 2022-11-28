@@ -17,7 +17,14 @@ export class AddProductComponent {
   readValue=()=>
   {
     let data:any=
-    {"title":this.title,"price":this.price,"description":this.description,"category":this.category,"image":this.image,"rating":this.rating}
+    {
+      "title":this.title,
+    "price":this.price,
+    "description":this.description,
+    "category":this.category,
+    "image":this.image,
+    "rating":this.rating
+  }
     console.log(data)
     
   }
